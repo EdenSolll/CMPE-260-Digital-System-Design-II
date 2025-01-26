@@ -1,0 +1,29 @@
+Vivado Simulator v2024.2.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/Sol/vivado/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot aluTB_func_synth xil_defaultlib.aluTB -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.globals
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0001000000001111")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00001101000010000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00110000101110110011...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10111000101110111011...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10111000")(0,7)\]
+Compiling architecture structure of entity xil_defaultlib.alu4 [alu4_default]
+Compiling architecture behavioral of entity xil_defaultlib.alutb
+Built simulation snapshot aluTB_func_synth

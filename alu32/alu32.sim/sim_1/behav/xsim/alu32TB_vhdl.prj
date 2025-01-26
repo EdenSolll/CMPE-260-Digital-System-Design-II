@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../alu32.srcs/sources_1/new/globals.vhd" \
+"../../../../alu32.srcs/sources_1/new/notN.vhd" \
+"../../../../alu32.srcs/sources_1/new/sllN.vhd" \
+"../../../../alu32.srcs/sources_1/new/lorN.vhd" \
+"../../../../alu32.srcs/sources_1/new/srlN.vhd" \
+"../../../../alu32.srcs/sources_1/new/landN.vhd" \
+"../../../../alu32.srcs/sources_1/new/lxorN.vhd" \
+"../../../../alu32.srcs/sources_1/new/sraN.vhd" \
+"../../../../alu32.srcs/sources_1/new/alu32.vhd" \
+"../../../../alu32.srcs/sim_1/new/alu32TB.vhd" \
+
+# Do not sort compile order
+nosort

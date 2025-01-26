@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/globals.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu32'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sim_1/new/alu32TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'alu32TB'

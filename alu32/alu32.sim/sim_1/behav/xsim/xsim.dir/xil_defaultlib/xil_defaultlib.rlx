@@ -1,0 +1,14 @@
+0.7
+2020.2
+Dec 15 2024
+09:04:49
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sim_1/new/alu32TB.vhd,1737767202,vhdl,,,,alu32tb,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,1737764791,vhdl,,,,alu32,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/globals.vhd,1737769836,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sim_1/new/alu32TB.vhd;/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,globals,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/landN.vhd,1737562960,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,landn,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/lorN.vhd,1737505975,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,lorn,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/lxorN.vhd,1737562952,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,lxorn,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/notN.vhd,1737505958,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,notn,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sllN.vhd,1737508861,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,slln,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/sraN.vhd,1737574811,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,sran,,,,,,,,
+/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/srlN.vhd,1737573783,vhdl,/home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/sources_1/new/alu32.vhd,,,srln,,,,,,,,
