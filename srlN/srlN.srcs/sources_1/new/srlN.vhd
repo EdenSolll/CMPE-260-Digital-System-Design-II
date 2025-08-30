@@ -16,7 +16,7 @@ use IEEE.NUMERIC_STD.ALL ;
 
 entity srlN is
     GENERIC (N : INTEGER := 4;  -- bit width
-             M : INTEGER := 2); -- shift bits 
+             M : INTEGER := 2); -- shift bits
     PORT (
             A : IN std_logic_vector (N -1 downto 0);
             SHIFT_AMT : IN std_logic_vector (M-1 downto 0);
@@ -28,7 +28,7 @@ architecture behavioral of srlN is
     -- create array of vectors to hold each of n shifters
     type shifty_array is array (N -1 downto 0) of std_logic_vector (N-1 downto 0);
     signal aSRL : shifty_array;
-    
+
 begin
     generateSRL : for i in 0 to N-1 generate
         aSRL(i)(N-1-i downto 0) <= A(N-1 downto i);

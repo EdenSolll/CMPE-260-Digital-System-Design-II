@@ -13,3 +13,13 @@
     <Process Command="vivado" Owner="Sol" Host="ArchInstalledByAnIdiot" Pid="277468" HostCore="16" HostMemory="15586476">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="Sol" Host="ArchInstalledByAnIdiot" Pid="118635" HostCore="16" HostMemory="15586464">
+    </Process>
+</ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado" Owner="Sol" Host="ArchInstalledByAnIdiot" Pid="122045" HostCore="16" HostMemory="15586464">
+    </Process>
+</ProcessHandle>

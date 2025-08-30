@@ -1,0 +1,34 @@
+- What is assembly language
+
+Assembly is the legible programming language representation of computer instructions.
+
+– In the assembly code sub a,b,c, which operand is the destination?
+
+a = b - c (a is the destination)
+
+– Why are operands stored in registers?
+
+Operands are stored in registers because the instructions need to be able to access their operands quickly for fast computation.
+
+– This lab creates 8 registers. How many registers does a MIPs have?
+
+32
+
+– How many operands can be read from a MIPs register at a time?
+
+2
+
+– How many operands can be written to a MIPs register at a time?
+
+1
+
+– In your own words describe the distinction between machine language & assembly language.
+
+Machine language is the binary code which assembly language compiles down to. Machine language is illegible to human
+while assembly is meant to be the legible representation of machine code where each instruction corisponds directly
+to a machine code instruction.
+
+– how many bits are typically 1 register.
+
+32 bits for standard MIPs registers, but 64 bit registers do exist for the 64 bit version of MIPs
+

@@ -32,7 +32,7 @@ architecture Behavioral of aluTB is
     constant delay : time := 20 ns;
     signal A, B, Y : std_logic_vector (N -1 downto 0) := (others => '0');
     signal OP : std_logic := '0';
-    
+
 begin
     -- Instantiate an instance of the ALU
     alu_inst : alu4 PORT MAP (
@@ -47,11 +47,11 @@ begin
             wait for delay;
             A <= std_logic_vector (unsigned(A) + 1);
         end loop;
-        
+
         wait for delay;
 
         OP <= '1';
-        
+
         for i in 1 to 7 loop
             A <= std_logic_vector(unsigned(A) + 1);
             for j in 0 to 3 loop
@@ -62,6 +62,6 @@ begin
         end loop;
 
         wait;
-        
+
     end process;
-end Behavioral;    
+end Behavioral;

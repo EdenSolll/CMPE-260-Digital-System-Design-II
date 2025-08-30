@@ -56,6 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 4
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -92,9 +93,6 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/constrs_1/new/adc32.xdc
-set_property used_in_implementation false [get_files /home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/constrs_1/new/adc32.xdc]
-
 set_param ips.enableIPCacheLiteLoad 1
 
 read_checkpoint -auto_incremental -incremental /home/Sol/CMPE-260-Digital-System-Design-II/alu32/alu32.srcs/utils_1/imports/synth_1/alu32.dcp

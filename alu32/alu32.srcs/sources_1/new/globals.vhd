@@ -13,7 +13,7 @@
 -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-package globals is 
+package globals is
     constant N : INTEGER := 32;
     constant M : INTEGER := 5;
 end;

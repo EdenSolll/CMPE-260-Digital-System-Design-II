@@ -51,7 +51,7 @@ begin
     srl_comp : entity work.srlN
         generic map (N => N, M => M)
         port map (A => A, SHIFT_AMT => B(M-1 downto 0), Y => srl_result);
--- Instantiate the AND unit 
+-- Instantiate the AND unit
     land_comp : entity work.landN
         generic map (N => N)
         port map (A => A, B => B, Y => land_result);
@@ -71,5 +71,5 @@ begin
          sll_result when OP = "1100" else -- SLL
          srl_result when OP = "1101" else -- SRL
          sra_result when OP = "1110" else -- SRA
-         (others => '0'); -- Default case 
+         (others => '0'); -- Default case
 end structural;
